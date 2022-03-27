@@ -22,7 +22,7 @@ if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandl
       <a class="link-secondary" href="#">Subscribe</a>
     </div>
     <div class="col-4 text-center">
-      <a class="blog-header-logo text-dark" href="#">Champs lacanien Bordeaux</a>
+      <a class="blog-header-logo text-dark" href="#">Pôle Atlantique</a>
     </div>
     <div class="col-4 d-flex justify-content-end align-items-center">
       <a class="link-secondary" href="#" aria-label="Search">
