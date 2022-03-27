@@ -6,6 +6,9 @@ Author: Ugo Grandinetti
 Author URI: logiquehumaine.fr
 .
 */
+body {
+  max-width: 960px;
+}
 .blog-header-logo {
   font-family: helvetica-w01-light,helvetica-w02-light,sans-serif;
   font-size: 2.25rem;
