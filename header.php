@@ -16,7 +16,7 @@ if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandl
 <title><?php the_title() ?></title>
 </head>
 <body class="container-fluid">
-<header class="row">
+<header class="blog-header py-3">
   <div class="row flex-nowrap justify-content-between align-items-center">
     <div class="col-4 pt-1">
       <a class="link-secondary" href="#">Subscribe</a>
