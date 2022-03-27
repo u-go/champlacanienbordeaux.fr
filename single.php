@@ -22,31 +22,6 @@ require_once('json-ld-article.php')
 					</ul>
 				</div>
 				<?php } ?>
-
-			<hr />
-			<div id="auteur">
-			<h4>Auteur</h4>
-					<?php the_author_meta('first_name', $current_author->ID)?> <?php the_author_meta('last_name', $current_author->ID)?> le <time datetime="<?php get_the_modified_date(); ?>"> <?php the_date(); ?></time>
-
-			</div>
-
-			<?php
-			if(get_field('sources')!=null){
-			?>
-			<hr />
-			<div class="source">
-			<b>Sources </b>
-			<?php the_field('sources') ?>
-			</div>
-			<?php
-			}
-			?>
-			<hr />
-			<div class="partager">
-				<h4>Partager</h4>
-			  <div class="g-plusone" data-size="small" data-annotation="bubble" data-href="<?php the_permalink()?>"></div>
-			  <div class="fb-like" data-href="<?php the_permalink()?>" data-send="false" data-layout="button_count" data-width="50" data-show-faces="false"></div>
-			</div>
 		</article>
 	</div>
 	<?php endwhile; ?>
