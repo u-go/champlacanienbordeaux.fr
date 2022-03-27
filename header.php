@@ -15,7 +15,7 @@ if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandl
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title><?php the_title() ?></title>
 </head>
-<body class="container-fluid" onLoad="start()">
+<body class="container-fluid">
 <header class="row">
 <div class="col-md-12">
   <div class="display-5">Champs lacanien Bordeaux</div>
