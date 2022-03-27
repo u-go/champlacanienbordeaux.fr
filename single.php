@@ -49,14 +49,6 @@ require_once('json-ld-article.php')
 			</div>
 		</article>
 	</div>
-	<div class="col-md-4">
-		<aside class="box">
-      <h2>Sommaire</h2>
-  		<ul class="list-group list-group-flush" id="sommaire">
-  		</ul>
-  		<?php dynamic_sidebar(); ?>
-  	</aside>
-	</div>
 	<?php endwhile; ?>
 	<?php endif; ?>
 </div>
