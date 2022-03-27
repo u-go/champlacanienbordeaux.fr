@@ -6,3 +6,7 @@ Author: Ugo Grandinetti
 Author URI: logiquehumaine.fr
 .
 */
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
