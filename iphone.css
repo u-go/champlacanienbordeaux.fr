@@ -1,0 +1,119 @@
+*{padding:0px}
+
+html {
+}
+
+body{
+	 color: black;
+    font-family: Verdana,"Bitstream Vera Sans","Lucida Grande",sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+header, section, footer{
+	text-align:center;
+	z-index: 20;
+	padding:0px;
+}
+
+header{ 
+	box-shadow: none;
+    height: 50px;
+	margin:0% auto;
+	padding:0px;
+    text-align: center;
+    width: 100%;
+    }
+		header h1{ text-align:left; width:auto; padding:0px; margin:0 auto; margin-left: 0.5em; margin-top: 0em !important; font-size:1.4em; color: #5b534b !important; font-style:normal; text-shadow:none}
+		div.info{ display:none; z-index:100; float:right; color: #563d27; margin: 10px; clear: both}
+
+#partage{display: none;width:auto; margin-top: 5px;}
+	
+nav{position:static; text-align:center; width:90%;margin: 0% auto;margin-top:1em;height:50px; padding: 0px; text-align:left}
+	nav li{float: left; font-size: 0.5em}
+	nav li.current_page_item a{background: #7D5735 !important; color: #FFF !important; box-shadow: 1px 1px 3px #7D5735}
+	nav a{display: inline-block; padding:0px; height: auto; margin-left: 0.5em;}
+	nav a:hover{ background: #7D5735 !important; color: #FFF !important; box-shadow: 1px 1px 3px #7D5735}
+	
+section{width:90%; margin: 0% auto; text-align: justify;border-radius: 4px;}
+	
+	/**** Section de l'intro avec photo du cab ****/
+	
+	section#intro{height: auto; width: 100%; padding: 15px; height: auto;}
+		section#intro h1{margin: 0px;}
+		#intro h2:first-child{margin-top: 1em;}
+		#box_img_intro{float:left; margin:0px; width:100%; height: auto;overflow: hidden; box-shadow: 1px 1px 2px black; border-radius: 8px;;}
+			#box_img_intro img{width:100%; height: auto;  }
+		#box_texte_intro{ text-align:justify; float:right;width: 100%; margin:0px; border-radius: 4px}
+		
+	section#formation{ padding: 0px; height: auto}
+		section#formation h1{margin-left: 0px; margin-top: 1em !important} 
+		section#formation p{margin-left: 0px}
+		div.formation{float: left; width: 90%; margin:O% auto; text-align: left; background: #DDD; padding:1em; border-radius: 4px}
+		
+	section#titre_page{padding: 0px 15px; margin-bottom: 15px;background:white; box-shadow: 1px 1px 4px #242424;}
+		section#titre_page h1{margin:0px}
+		
+article{width:480px;text-align:justify; padding:0px;border-radius: 4px;}
+	article a{color: #AB7A52;}
+	article div.source, div.auteur{	font-style:italic;}
+	article ul{ list-style:circle; margin-left: 25px;}
+	article img {float:left; margin: 0px 15px 15px 0px ;}
+	
+	article.post{min-height: 135px;}
+
+aside{width:250px; float: right; background: white; padding:  15px; text-align: left; box-shadow: 1px 1px 4px #242424}
+	aside hr{border: dashed 1px grey;  width: 80%; margin: 0 auto; margin-top: 5px; margin-bottom: 5px;}
+	#sommaire h1, #sommaire h2, #sommaire h3, #sommaire h4{font-size: 1em !important}
+
+div#keywords{text-align: left}
+	div#keywords ul{list-style: none;margin: 0px; display: block}
+	div#keywords li{display: inline-block; margin-left: 5px; margin-top: 2px; background: #CCC; border-radius: 100px; padding: 0px 4px}
+
+footer{text-align:left; width:90%; padding: 0px; height: 5%; margin: 0 auto; border-radius:4px; background: white; box-shadow: 1px 1px 4px #242424; font-size:1em}
+	footer #copyright{display:none;float: right; margin-top: 8px;}
+
+a{text-decoration:none; color:inherit}
+a:hover{color: #296130;}
+
+h1, h2, h3, h4{	font-family: Helvetica Neue, "Bitstream Vera Serif", Norasi, serif !important;font-weight:normal; margin:Opx;}
+h1:first-child{ margin-top: 1em }
+h1{font-size: 1.2em;color:#243154 !important; margin-top:1em}
+h2{font-size: 1.1em;color:#667366 !important}
+h3{font-size: 1.0em;color:rgb(179, 62, 22) !important}
+h4{font-size: 1.0em; color:#6F7481; margin: 5px 0px 5px 0px}
+
+hr{
+	border: dashed 1px #CCC;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+img{ border: solid 1px #CCC; box-shadow: 1px 1px 2px #CCC}
+	/* Images */
+	.alignleft{float:left}
+	.alignright{float:right}
+	.aligncenter{display:block;margin-left:auto;margin-right:auto}
+	.entry-content img,.comment-content img,.widget img,img.header-image,.author-avatar img,img.wp-post-image{border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.2)}
+	.wp-caption p{padding:0px;padding:  5px; margin: 0px;}
+	.wp-caption .wp-caption-text,.gallery-caption,.entry-caption{font-style:italic;font-size:10px;color:#757575; padding:5px 15px 5px 5px;}
+	img.wp-smiley,.rsswidget img{border:0;border-radius:0;box-shadow:none;margin-bottom:0;margin-top:0;padding:0}
+	.entry-content dl.gallery-item{margin:0}
+	.gallery-item a,.gallery-caption{width:90%}
+	.gallery-item a{display:block}
+	.gallery-caption a{display:inline}
+	.gallery-columns-1 .gallery-item a{max-width:100%;width:auto}
+	.gallery .gallery-icon img{height:auto;max-width:90%;padding:5%}
+	.gallery-columns-1 .gallery-icon img{padding:3%}
+
+p{ margin:10px 0px 10px 0px; display: block; width: auto}
+
+strong{ color: #2F2F2F; font-weight:bold}
+
+td{padding:2px 8px 2px 8px; vertical-align:top;}
+th{color: #2A2A2A; font-weight:bold}
+
+ul{list-style:none; margin: 0px}
