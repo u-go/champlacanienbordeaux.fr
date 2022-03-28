@@ -53,6 +53,6 @@ if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandl
         </div>
     </nav>
   </div>
-  <div class="col-md-12" style="height: 200px; width: 100%; background-image:url(<?php bloginfo("template_directory"); ?>/fond.jpeg); background-size: cover">
+  <div class="col-md-12" style="height: 200px; width: 100%; background-image:url(<?php bloginfo("template_directory"); ?>/fond.jpeg); background-size: contain; backround-repeat: no-repeat">
   </div>
 </header>
