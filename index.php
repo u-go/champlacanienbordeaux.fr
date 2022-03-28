@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 <!-- Titre du site -->
-<h1 id="titre_page">Articles</h1>
 <section id="gobale">
 	<?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
 	<article class="card mb-3">
